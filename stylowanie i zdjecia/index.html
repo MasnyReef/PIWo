@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <p class="logo">Travelly</p>
+        <ul class="menu">
+            <li><a class="menu-item" href="#">Home</a></li>
+            <li><a class="menu-item" href="#about-section">About</a></li>
+            <li><a class="menu-item" href="#">Trips</a></li>
+            <li><a class="menu-item" href="#">Revievs</a></li>
+            <li><a class="menu-item" href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero-section" class="hero-section grid">
+        <div class="hero-image">
+            <div class="welcome-text">
+                <h3 class="dark">
+                    Your adventure starts now
+                </h3>
+                <p class="dark">
+                    co tu sie robi many
+                </p>
+            </div>
+            <div class="search-container">
+                <input placeholder="What's your dream destination?">
+                <button class="primary-green" type="submit">Browse</button>
+            </div> 
+        </div>
+    </section>
+
+    <section id="destinations-section" class="destinations-section grid">
+        <h3 class="orange destinations-text">walenie wiadra</h3>
+        <article class="card" type="destination" mode="vertical">
+            <div class="destination-image-container" mode="vertical">
+                <img class="destination-image" src="./assets/Athens.jpg">
+            </div>
+            <div class="destination-content">
+                <div class="destination-card-header">
+                    <p class="=green bold">
+                        Athens, Greece
+                    </p>
+                    <p class="dark">
+                        4.20 - 9.11
+                    </p>
+                </div>
+                <p class="dark">
+                    Mój stary to fanatyk wędkarstwa. Pół mieszkania zawalone wędkami, najgorzej. 
+                </p>
+                <div class="destination-card-footer">
+                    <p class="orange bold">
+                        2137 zl
+                    </p>
+                    <button class="primary-orange" type="submit">
+                        Block now
+                    </button>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>

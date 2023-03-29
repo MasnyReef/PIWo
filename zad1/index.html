@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img src="./assets/logo.svg">
+        <ul class="menu">
+            <li><a class="menu-item" href="#hero-section">Home</a></li>
+            <li><a class="menu-item" href="#about-section">About</a></li>
+            <li><a class="menu-item" href="#">House Tours</a></li>
+            <li><a class="menu-item" href="#">Contact</a></li>
+            <li><a class="menu-item orange-button" href="#">Book a meeting</a></li>
+        </ul>
+    </nav>
+
+    <section id="hero-section" class="hero-section grid">
+        <div class="login-section">
+            <div class="gradient-blue">
+                <h3 class="black login-slogan">Find your dream home today!</h3>
+                <p class="black login-slogan">Log in and book a house tour with our real estate agent!</p>
+            </div>
+            <form>
+                <div class="form-group">
+                  <label for="username">Login</label>
+                  <input type="text" id="username" name="username" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" id="password" name="password" class="form-control">
+                  <div class="no-account">
+                    <p>No account? <a href="#" class="brown menu-item">Register</a></p>
+                    <p><a href="#" class="brown menu-item">Forgot password</a></p>
+                </div>
+                </div>
+                <button type="submit">Log in</button>        
+            </form>
+        </div>
+        <img class="login-image" src="./assets/hero image.png" alt="House">
+    </section>
+
+    <section id="about-section" class="grid">
+        <div class="about-section">
+            <div class="about-slogan gradient-orange">
+                <h3 class="black">At Evilla we help you turn the key to your future</h3>
+            </div>
+        </div>
+        <div class="about-panels">
+            <article class="card" mode="vertical">
+                <div class="panel-title bold">Expertise</div>
+                <p>Our real estate company has a team of highly skilled professionals who possess extensive knowledge of the real estate market, ensuring that our clients receive the best possible advice and guidance.</p>
+            </article>
+            <article class="card" mode="vertical">
+                <div class="panel-title bold">Personalized Service</div>
+                <p>We understand that each client has unique needs and preferences, which is why we provide personalized service that is tailored to meet individual requirements.</p>
+            </article>
+            <article class="card" mode="vertical">
+                <div class="panel-title bold">Trustworthy</div>
+                <p>We have built a reputation of being a trustworthy real estate company that operates with honesty, transparency, and integrity. Our clients can rely on us to always act in their best interests.</p>
+            </article>
+            <article class="card" mode="vertical">
+                <div class="panel-title bold">Exceptional Results</div>
+                <p>We have a track record of achieving exceptional results for our clients, whether it's finding the perfect home, securing a profitable investment property, or selling a property at the best possible price.</p> 
+            </article>
+        </div>
+    </section>
+</body>
+</html>
