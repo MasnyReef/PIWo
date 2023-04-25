@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista ToDo</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      </head>
+  <body>
+    <h1>Lista ToDo</h1>
+    <input type="text" id="taskInput">
+    <button onclick="addTask()">Dodaj zadanie</button>
+    <button id="undoButton" style="display:none;" onclick="undo()">Cofnij usunięcie</button>
+    <ul id="taskList">
+    </ul>
+    
+    <script src="demo.js"></script>
+  </body>
+</html>
