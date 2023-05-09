@@ -1,29 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-// export default App;
-
 import React, { useState } from "react";
 
 // dane z przykładowymi nieruchomościami
@@ -35,8 +9,6 @@ const nieruchomosci = [
     cena: 2500,
     opis: "Nowoczesne mieszkanie w centrum Krakowa",
     adres: "ul. Floriańska 15",
-    lat: 50.061947,
-    lng: 19.936856,
     dataDodania: "2023-01-01",
     },
     {
