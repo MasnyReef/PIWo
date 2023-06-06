@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "miasto": "Kraków",
+      "sypialnie": 2,
+      "cena": 2500,
+      "opis": "Nowoczesne mieszkanie w centrum Krakowa",
+      "adres": "ul. Floriańska 15",
+      "dataDodania": "2023-01-01",
+      "email": "jan.kowalski@example.com"
+    },
+    {
+      "id": 2,
+      "miasto": "Warszawa",
+      "sypialnie": 3,
+      "cena": 3500,
+      "opis": "Duże mieszkanie blisko centrum Warszawy",
+      "adres": "ul. Marszałkowska 1",
+      "dataDodania": "2023-01-05",
+      "email": "anna.nowak@example.com"
+    },
+    {
+      "id": 3,
+      "miasto": "Gdańsk",
+      "sypialnie": 1,
+      "cena": 1800,
+      "opis": "Kawalerka w samym centrum Gdańska",
+      "adres": "ul. Długa 1",
+      "dataDodania": "2023-01-10",
+      "email": "adam.kowalczyk@example.com"
+    },
+    {
+      "id": 4,
+      "miasto": "Kraków",
+      "sypialnie": 1,
+      "cena": 1500,
+      "opis": "Przytulna kawalerka w spokojnej okolicy Krakowa",
+      "adres": "ul. Zakopiańska 1",
+      "dataDodania": "2023-02-01",
+      "email": "ewa.nowicka@example.com"
+    },
+    {
+      "id": 5,
+      "miasto": "Warszawa",
+      "sypialnie": 2,
+      "cena": 2800,
+      "opis": "Mieszkanie z pięknym widokiem na Stadion Narodowy",
+      "adres": "ul. Wybrzeże Gdyńskie 4",
+      "dataDodania": "2023-02-15",
+      "email": "michal.wojcik@example.com"
+    },
+    {
+      "id": 6,
+      "miasto": "Białystok",
+      "sypialnie": 1,
+      "cena": 200,
+      "opis": "Mieszkanie w pakiecie z lokatorem (UWAGA: lepiej chować przed nim mleko!)",
+      "adres": "ul. Szkolna 17",
+      "dataDodania": "2023-03-01",
+      "email": "mleczny.czlowiek@example.com"
+    }
+]
+  
